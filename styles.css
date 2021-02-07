@@ -1,0 +1,12 @@
+
+
+.container {
+    margin-top: 70px;
+    border-style: solid;
+    border-spacing: 10px ;
+    border-collapse: collapse;
+}
+
+.btn {
+    margin-left: 100px;
+}
