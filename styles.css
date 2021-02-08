@@ -12,4 +12,24 @@
 section {
   height: 90vh;
 }
+
+hr {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.box-result {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.res {
+  font-size: 20px !important;
+  text-align: center;
+  border-style: solid;
+  padding: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
