@@ -4,8 +4,8 @@ function ell1()
     test1 = document.getElementById("atv-classe-ell-1").value;
     test2 = document.getElementById("atv-classe-ell-2").value;
     test3 = document.getElementById("atv-classe-ell-3").value;
-    ellac = (test1 + test2 + test3)/3
-    ellac1 = ellac*0.2
+    ellac = (test1 + test2 + test3)
+    ellac1 = ellac/3
 
     test4 = document.getElementById("prova-mensal-ell-1").value;
     test5 = document.getElementById("prova-mensal-ell-2").value;
@@ -17,7 +17,7 @@ function ell1()
     elltri = (test6 + test7)/2
     elltri1 = elltri*0.4
 
-    document.getElementById("test").innerHTML = ellac1 + ellmensal1 + elltri1;
+    document.getElementById("test").innerHTML = ellac1;
 }
 
 
