@@ -237,8 +237,6 @@ function mediamesal ()
 }
 
 
-
-
 // document.getElementById("test").innerHTML = ellatvtotal;
 
 // document.getElementById("test").innerHTML = test1 * test2;
