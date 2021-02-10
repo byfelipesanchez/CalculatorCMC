@@ -280,17 +280,25 @@ function necessary()
 
 var $ = document.getElementById
 
+var table = $("table")
+
+var alertwindow = ("É Preciso Inserir As Suas Notas")
+
     if(mediamensal,mediatrimestral,mediaatv) 
     {
         mediamensal(), mediatrimestral(), mediaatv()>= 5
-        $("passed").innerHTML = "Você já passou!😃"
+        $("passed").innerHTML = "Você já passou!"
     }
-    else 
+    else if(mediamensal,mediatrimestral,mediaatv) 
     {
         mediaatv(), mediatrimestral(), mediamensal() <= 5; {
             amountnecessary == true
             $("total-result").innerHTML = "Você precisa de:"; amountnecessary
         }
+    }
+    else if(table === null)
+    {
+        alert(alertwindow);
     }
 }
 
