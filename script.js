@@ -233,8 +233,34 @@ function filo()
 
 function mediamesal ()
 {
+    mensaltotal = (ellmensaltotal + pdtmensaltotal + matmensaltotal +
+        fismensaltotal + quimensaltotal + biomensaltotal + histmensaltotal +
+        geomensaltotal + espmensaltotal + ingmensaltotal + filomensaltotal)/12
 
+    document.getElementById("mensal-result").innerHTML = mensaltotal;
 }
+
+function mediatrimestral ()
+
+{
+    tritotal = (elltritotal + pdttritotal + mattritotal +
+        fistritotal + quitritotal + biotritotal + histtritotal +
+        geotritotal + esptritotal + ingtritotal + filotritotal)/12
+
+    document.getElementById("trimestral-result").innerHTML = tritotal;
+}
+
+function mediaatv ()
+{
+
+    atvtotal =  (ellatvtotal + pdtatvtotal + matatvtotal +
+        fisatvtotal + quiatvtotal + bioatvtotal + histatvtotal +
+        geoatvtotal + espatvtotal + ingatvtotal + filoatvtotal)/12
+
+
+    document.getElementById("atv-result").innerHTML = atvtotal;    
+}
+
 
 
 // document.getElementById("test").innerHTML = ellatvtotal;
