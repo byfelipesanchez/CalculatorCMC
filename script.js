@@ -231,7 +231,7 @@ function filo()
 }
 
 
-function mediamesal ()
+function mediamensal ()
 {
     mensaltotal = (ellmensaltotal + pdtmensaltotal + matmensaltotal +
         fismensaltotal + quimensaltotal + biomensaltotal + histmensaltotal +
