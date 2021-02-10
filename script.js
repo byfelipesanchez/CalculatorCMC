@@ -302,6 +302,26 @@ var alertwindow = ("É Preciso Inserir As Suas Notas")
     }
 }
 
+function reset()
+{
+
+    var $ = document.getElementById
+    
+    var ell = $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3")
+
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+    $("atv-classe-ell-1, atv-classe-ell-2, atv-classe-ell-3,prova-mensal-ell-1, prova-mensal-ell-2,prova-trimestral-ell-1,prova-trimestral-ell-2").innerHTML = "";
+//TODO: change ell to each one of the subjects
+
+}
+
 // document.getElementById("test").innerHTML = ellatvtotal;
 
 // document.getElementById("test").innerHTML = test1 * test2;
