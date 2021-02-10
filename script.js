@@ -1,3 +1,4 @@
+const $ = document.getElementById;
 
 function ell() 
 {
@@ -22,19 +23,23 @@ function ell()
 
 function pdt() 
 {
-    pdtatv1 = document.getElementById("atv-classe-pdt-1").value;
-    pdtatv2 = document.getElementById("atv-classe-pdt-2").value;
-    pdtatv3 = document.getElementById("atv-classe-pdt--3").value;
+var $ = document.getElementById
+}
+
+{
+    pdtatv1 = $("atv-classe-pdt-1").value;
+    pdtatv2 = $("atv-classe-pdt-2").value;
+    pdtatv3 = $("atv-classe-pdt--3").value;
     pdtatv = (pdtatv1 + pdtatv2 + pdtatv3)/3
     pdtatvtotal = (pdtatv*0.2)
 
-    pdtmensal1 = document.getElementById("prova-mensal-pdt-1").value;
-    pdtmensal2 = document.getElementById("prova-mensal-pdt-2").value;
+    pdtmensal1 = $("prova-mensal-pdt-1").value;
+    pdtmensal2 = $("prova-mensal-pdt-2").value;
     pdtmensal = (pdtmensal1 + pdtmensal2)/2
     pdtmensaltotal = pdtmensal*0.4
 
-    pdttri1 = document.getElementById("prova-trimestral-pdt-1").value;
-    pdtti2 = document.getElementById("prova-trimestral-pdt-2").value;
+    pdttri1 = $("prova-trimestral-pdt-1").value;
+    pdtti2 = $("prova-trimestral-pdt-2").value;
     pdttri = (pdttri1 + pdttri2)/2
     pdttritotal = pdttri*0.4
 
@@ -261,7 +266,33 @@ function mediaatv ()
     document.getElementById("atv-result").innerHTML = atvtotal;    
 }
 
+//amount necessary to pass
+ 
+function necessarycalc()
+{
+    amount1 = mediamensal + mediatrimestral + mediaatv 
+    amount2 = (5 - amount1) //5 (average) - amount1 (average of 3 things) = how much is needed to
+    amountnecessary = amount2
+}
 
+function necessary() 
+{
+
+var $ = document.getElementById
+
+    if(mediamensal,mediatrimestral,mediaatv) 
+    {
+        mediamensal(), mediatrimestral(), mediaatv()>= 5
+        $("passed").innerHTML = "Você já passou!😃"
+    }
+    else 
+    {
+        mediaatv(), mediatrimestral(), mediamensal() <= 5; {
+            amountnecessary == true
+            $("total-result").innerHTML = "Você precisa de:"; amountnecessary
+        }
+    }
+}
 
 // document.getElementById("test").innerHTML = ellatvtotal;
 
